@@ -18,13 +18,12 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission here
+
     console.log('Form submitted:', formData);
   };
 
   return (
     <div className="contact-page">
-      {/* Hero Section */}
       <section className="contact-hero">
         <div className="hero-content">
           <h1>Get in Touch</h1>
@@ -32,11 +31,9 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Contact Content */}
       <section className="contact-content">
         <div className="container">
           <div className="contact-grid">
-            {/* Contact Information */}
             <div className="contact-info">
               <h2>Contact Information</h2>
               <div className="info-items">
@@ -73,7 +70,7 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Contact Form */}
+
             <div className="contact-form">
               <h2>Send us a Message</h2>
               <form onSubmit={handleSubmit}>

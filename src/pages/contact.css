@@ -6,7 +6,7 @@
   padding-top: 80px; /* Account for fixed navbar */
 }
 
-/* Hero Section */
+
 .contact-hero {
   background: white;
   padding: 60px 20px;
@@ -30,14 +30,14 @@
   margin-right: auto;
 }
 
-/* Container */
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-/* Contact Content */
+
 .contact-content {
   padding: 60px 0;
 }
@@ -49,7 +49,7 @@
   align-items: start;
 }
 
-/* Contact Information */
+
 .contact-info {
   background: white;
   border-radius: 16px;
@@ -105,7 +105,7 @@
   line-height: 1.4;
 }
 
-/* Contact Form */
+
 .contact-form {
   background: white;
   border-radius: 16px;
@@ -172,7 +172,7 @@
   opacity: 0.9;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .contact-grid {
     grid-template-columns: 1fr;

@@ -1,12 +1,10 @@
-/* Categories Page Styles */
 .categories-page {
   min-height: 100vh;
   background-color: #f8f9fb;
   font-family: 'Segoe UI', sans-serif;
-  padding-top: 80px; /* Account for fixed navbar */
+  padding-top: 80px;
 }
 
-/* Hero Section */
 .categories-hero {
   background: white;
   padding: 60px 20px;
@@ -30,7 +28,6 @@
   margin-right: auto;
 }
 
-/* Categories Section */
 .categories-section {
   padding: 60px 20px;
 }
@@ -97,7 +94,6 @@
   font-size: 0.9rem;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .categories-grid {
     grid-template-columns: 1fr;

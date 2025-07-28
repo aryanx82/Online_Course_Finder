@@ -24,14 +24,14 @@ export default function SignUp() {
       ...formData,
       [name]: type === 'checkbox' ? checked : value
     });
-    // Clear error when user starts typing
+    
     if (errors[name]) {
       setErrors({
         ...errors,
         [name]: ''
       });
     }
-    // Clear auth error when user starts typing
+    
     if (authError) {
       setAuthError('');
     }
@@ -81,7 +81,6 @@ export default function SignUp() {
     if (validateForm()) {
       setLoading(true);
       try {
-        // Create user with Firebase
         const userCredential = await createUserWithEmailAndPassword(
           auth,
           formData.email,
@@ -90,8 +89,6 @@ export default function SignUp() {
         
         console.log('User created successfully:', userCredential.user);
         
-        // You can store additional user data (firstName, lastName) in Firestore here
-        // For now, we'll just redirect to the home page
         navigate('/');
         
       } catch (error) {

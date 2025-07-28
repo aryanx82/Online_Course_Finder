@@ -55,7 +55,6 @@ export default function Categories() {
 
   return (
     <div className="categories-page">
-      {/* Hero Section */}
       <section className="categories-hero">
         <div className="hero-content">
           <h1>Explore Categories</h1>
@@ -63,7 +62,6 @@ export default function Categories() {
         </div>
       </section>
 
-      {/* Categories Grid */}
       <section className="categories-section">
         <div className="categories-container">
           <div className="categories-grid">

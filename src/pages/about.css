@@ -1,27 +1,25 @@
-/* About Page Styles */
-.about-page {
+.page {
   min-height: 100vh;
   background-color: #f8f9fb;
   font-family: 'Segoe UI', sans-serif;
-  padding-top: 80px; /* Account for fixed navbar */
+  padding-top: 80px;
 }
 
-/* Hero Section */
-.about-hero {
+.about {
   background: white;
   padding: 60px 20px;
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
 }
 
-.hero-content h1 {
+.about-content h1 {
   font-size: 3rem;
   font-weight: bold;
   color: #202124;
   margin: 0 0 16px 0;
 }
 
-.hero-content p {
+.about-content p {
   font-size: 1.1rem;
   color: #5f6368;
   margin: 0;
@@ -30,14 +28,12 @@
   margin-right: auto;
 }
 
-/* Container */
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-/* Mission & Vision Section */
 .mission-vision-section {
   padding: 60px 0;
   background: white;
@@ -81,7 +77,6 @@
   margin: 0;
 }
 
-/* Features Section */
 .features-section {
   padding: 60px 0;
   background: #f8f9fb;
@@ -146,7 +141,6 @@
   margin: 0;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .mission-vision-grid {
     grid-template-columns: 1fr;

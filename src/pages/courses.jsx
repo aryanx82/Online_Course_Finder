@@ -9,7 +9,7 @@ export default function Courses() {
   const [searchQuery, setSearchQuery] = useState('');
   const [sortBy, setSortBy] = useState('Most Popular');
 
-  // Get search query from URL on component mount
+
   useEffect(() => {
     const urlSearch = searchParams.get('search');
     if (urlSearch) {
@@ -295,8 +295,7 @@ export default function Courses() {
   });
 
   const handleSearchChange = (e) => {
-    setSearchQuery(e.target.value);
-    // Update URL with search query
+    setSearchQuery(e.target.value); 
     if (e.target.value) {
       setSearchParams({ search: e.target.value });
     } else {
@@ -306,9 +305,7 @@ export default function Courses() {
 
   return (
     <div className="courses-page">
-      {/* Main Content */}
       <div className="courses-container">
-        {/* Filters Sidebar */}
         <aside className="filters-sidebar">
           <div className="filters-header">
             <span role="img" aria-label="search" className="search-icon">🔍</span>
@@ -362,8 +359,7 @@ export default function Courses() {
             </div>
           </div>
         </aside>
-
-        {/* Course Listings */}
+        
         <main className="course-listings">
           <div className="listings-header">
             <div className="listings-title">

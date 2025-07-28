@@ -30,16 +30,14 @@ export default function About() {
   ];
 
   return (
-    <div className="about-page">
-      {/* Hero Section */}
-      <section className="about-hero">
-        <div className="hero-content">
+    <div className="page">
+      <section className="about">
+        <div className="about-content">
           <h1>About CourseHub</h1>
           <p>Empowering learners worldwide with quality education</p>
         </div>
       </section>
 
-      {/* Mission & Vision Section */}
       <section className="mission-vision-section">
         <div className="container">
           <div className="mission-vision-grid">
@@ -64,7 +62,6 @@ export default function About() {
         </div>
       </section>
 
-      {/* Features Section */}
       <section className="features-section">
         <div className="container">
           <h2>What We Offer</h2>

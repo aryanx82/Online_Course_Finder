@@ -1,9 +1,8 @@
-/* Contact Page Styles */
 .contact-page {
   min-height: 100vh;
   background-color: #f8f9fb;
   font-family: 'Segoe UI', sans-serif;
-  padding-top: 80px; /* Account for fixed navbar */
+  padding-top: 80px;
 }
 
 
@@ -171,7 +170,6 @@
 .submit-btn:hover {
   opacity: 0.9;
 }
-
 
 @media (max-width: 768px) {
   .contact-grid {

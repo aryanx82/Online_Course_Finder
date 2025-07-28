@@ -21,14 +21,12 @@ export default function SignIn() {
       ...formData,
       [name]: type === 'checkbox' ? checked : value
     });
-    // Clear error when user starts typing
     if (errors[name]) {
       setErrors({
         ...errors,
         [name]: ''
       });
     }
-    // Clear auth error when user starts typing
     if (authError) {
       setAuthError('');
     }
@@ -60,7 +58,6 @@ export default function SignIn() {
     if (validateForm()) {
       setLoading(true);
       try {
-        // Sign in with Firebase
         const userCredential = await signInWithEmailAndPassword(
           auth,
           formData.email,
@@ -69,7 +66,6 @@ export default function SignIn() {
         
         console.log('User signed in successfully:', userCredential.user);
         
-        // Redirect to home page after successful sign in
         navigate('/');
         
       } catch (error) {

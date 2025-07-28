@@ -62,7 +62,6 @@ function HomePage() {
 
   return (
     <div>
-      {/* Hero Section */}
       <section className="home">
         <div className="content">
           <h1>Discover Your Next <br /> Learning Adventure</h1>
@@ -99,7 +98,6 @@ function HomePage() {
         </div>
       </section>
 
-      {/* Featured Courses Section */}
       <section className="featured-section">
         <h2 className="featured-title">Featured Courses</h2>
         <div className="featured-courses">

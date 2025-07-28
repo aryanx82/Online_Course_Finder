@@ -137,7 +137,7 @@ export default function Courses() {
       category: "Marketing",
       level: "INTERMEDIATE",
       price: 69.99,
-      image: "https://images.unsplash.com/photo-1611162617213-9d7ecdd0c8b4?auto=format&fit=crop&w=400&q=80"
+      image: "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80"
     },
     {
       id: 12,
@@ -247,7 +247,7 @@ export default function Courses() {
       category: "Marketing",
       level: "BEGINNER",
       price: 64.99,
-      image: "https://images.unsplash.com/photo-1611162617213-9d7ecdd0c8b4?auto=format&fit=crop&w=400&q=80"
+      image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80"
     },
     {
       id: 22,
